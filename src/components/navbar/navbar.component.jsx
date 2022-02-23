@@ -12,7 +12,7 @@ const Navbar = () => {
 
                 <div className={`${styles['navbar__brand']}`}>
                     <Link className={`${styles['navbar__link']}`} to='/'>
-                        <h3>Adam Yi</h3>
+                        Adam Yi
                     </Link>
                 </div>
 

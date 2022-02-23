@@ -1,0 +1,51 @@
+.home-page {
+  margin-top: 10%;
+}
+
+.home-page__profile-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.home-page__intro-text {
+  flex-basis: 70%;
+}
+
+.home-page__image-profile {
+  align-self: flex-start;
+}
+
+/***** Utilities classes ******/
+.text-subtitle {
+  color: #fde74c;
+}
+
+.text-body {
+  line-height: 1.7rem;
+  font-size: 1.2rem;
+  color: #bcc6c8;
+}
+
+.text-highlight {
+  border-bottom: 2px solid #fde74c;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.img {
+  border-radius: 20px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.home-page--link {
+  margin-right: 20px;
+  border: 1px dotted black;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+}

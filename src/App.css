@@ -1,7 +1,20 @@
+/**** Color Palletee ****/
+/**
+#3891A6 - blue munsell (blueish turquoise)
+#4C5B5C - deep space sparkle (grey)
+  + #BCC6C8 - light shade (text)
+  + #252C2D - Darker shade (body background color)
+#FDE74C - yellow
+#DB5461 - Indian red (pinkish red)
+#E3655B - Fire Opal (light pinkish, red)
+
+**/
+
 body {
   padding: 0;
   box-sizing: border-box;
-  background-color: rgb(37, 37, 37);
+  background-color: #4c5b5c;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .container {

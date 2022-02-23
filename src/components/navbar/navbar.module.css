@@ -1,6 +1,6 @@
 .navbar {
-  background-color: rgb(24, 24, 24);
-  color: #fff;
+  background-color: #252c2d;
+  color: #bcc6c8;
   display: flex;
 }
 
@@ -17,14 +17,15 @@
 
 .navbar__link {
   text-decoration: none;
-  color: #fff;
-  margin-right: 10px;
+  color: #bcc6c8;
+  margin-right: 15px;
   border-radius: 5px;
   padding: 5px 5px;
 }
 
 .navbar__link:hover {
-  background-color: rgb(87, 86, 86);
+  background-color: #3891a6;
+  color: white;
 }
 
 .navbar__socials {
@@ -34,12 +35,13 @@
 
 .navbar__social {
   text-decoration: none;
-  color: #fff;
+  color: #bcc6c8;
   padding: 2px 5px;
   border-radius: 5px;
   margin-right: 10px;
 }
 
 .navbar__social:hover {
-  background-color: rgb(87, 86, 86);
+  background-color: #3891a6;
+  color: white;
 }
