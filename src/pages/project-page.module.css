@@ -1,0 +1,28 @@
+.project-page {
+  margin-top: 10%;
+}
+
+.project-page__header {
+  text-align: center;
+}
+
+.project-page__title {
+  color: #fff;
+  letter-spacing: 6px;
+}
+
+/***** Utilities classes *****/
+.link {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 2px solid #fde74c;
+}
+
+.link:hover {
+  background-color: #3891a6;
+}
+
+.border-line {
+  border-bottom: 1px dotted #fff;
+  margin-bottom: 40px;
+}

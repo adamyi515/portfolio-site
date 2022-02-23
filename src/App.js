@@ -2,6 +2,7 @@ import './App.css';
 
 // Components
 import Navbar from './components/navbar/navbar.component';
+import Footer from './components/footer/footer.component';
 import HomePage from './pages/home-page.component';
 import AboutPage from './pages/about-page.component';
 import ProjectPage from './pages/project-page.component';
@@ -23,6 +24,7 @@ function App() {
           <Route path='/about' element={<AboutPage />} />
         </Routes>
       </div>
+      <Footer />
     </div>
   );
 }

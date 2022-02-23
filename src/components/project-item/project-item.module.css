@@ -1,0 +1,40 @@
+.project-item {
+  box-shadow: 3px 3px 5px black;
+  border-radius: 10px;
+  background-color: #252c2d;
+  padding: 20px;
+  text-align: center;
+}
+
+.project-item__header h2 {
+  color: #fde74c;
+}
+
+.project-item__body {
+  color: #bcc6c8;
+}
+
+/**************************/
+
+.img {
+  width: 100%;
+}
+
+.btn__container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
+
+.btn {
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.btn:hover {
+  color: #fde74c;
+}
