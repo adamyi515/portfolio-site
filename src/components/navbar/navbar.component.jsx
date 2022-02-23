@@ -24,7 +24,7 @@ const Navbar = () => {
                     </li>
                     <li>
                         <Link className={`${styles['navbar__link']}`} to='/projects'>
-                            <i class="fa-solid fa-laptop-code"></i> Projects
+                            <i className="fa-solid fa-laptop-code"></i> Projects
                         </Link>
                     </li>
                     <li>

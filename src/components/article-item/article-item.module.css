@@ -1,0 +1,21 @@
+.article-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.article-item:hover {
+  background-color: #3891a6;
+  cursor: pointer;
+}
+
+.article-item__title {
+  word-spacing: 3px;
+}
+
+.article-item__title,
+.article-item__date {
+  color: #bcc6c8;
+}

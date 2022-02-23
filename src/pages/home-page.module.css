@@ -6,11 +6,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
 }
 
 .home-page__intro-text {
-  flex-basis: 70%;
+  flex-basis: 60%;
 }
 
 .home-page__image-profile {
@@ -37,7 +36,7 @@
 
 .img {
   border-radius: 20px;
-  height: 200px;
+  width: 200px;
   margin-top: 20px;
 }
 

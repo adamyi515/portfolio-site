@@ -1,12 +1,18 @@
 import React from 'react';
 import styles from './home-page.module.css';
 
+
+
+// Components
+import ArticleList from '../components/article-list/article-list.component';
+
 // react-router-dom
 import { Link } from 'react-router-dom';
 
 const HomePage = () => {
     return(
         <div className={`${styles['home-page']}`}>
+
             <div className={`${styles['home-page__profile-section']}`}>
 
                 <div className={`${styles['home-page__intro-text']}`}>
@@ -22,7 +28,7 @@ const HomePage = () => {
                         You can check out some of my other <Link className={`${styles['text-highlight']}`} to='/projects'>Projects here</Link>.
                     </p>
                     <Link className={`${styles['home-page--link']}`} to='/about'><i className="fa-solid fa-book"></i> More about me</Link>
-                    <a className={`${styles['home-page--link']}`} href='' target='_blank' >
+                    <a className={`${styles['home-page--link']}`} href='https://github.com/adamyi515' target='_blank' >
                         <i className="fa-brands fa-github-alt"></i> Check out my github</a>
                 </div>  
                 
@@ -30,12 +36,11 @@ const HomePage = () => {
                     <img className={`${styles['img']}`} src="https://i.postimg.cc/d3nSTwPH/adam-yi.jpg" alt="" />
                 </div>
 
-            </div>{/* ./END-home-page__profile-section */}
+            </div>{/* ./END home-page__profile-section */}
 
-            
+            <ArticleList titleList='Latest Talks' />
 
-
-        </div>
+        </div> 
     )
 }
 
