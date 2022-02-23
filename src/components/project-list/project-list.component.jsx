@@ -1,24 +1,20 @@
 import React from 'react';
 import styles from './project-list.module.css';
 
+// Project data
+import {projectItems} from '../../data/project-item';
+
 // Component
 import ProjectItem from '../project-item/project-item.component';
 
 const ProjectList = () => {
     return(
         <div className={`${styles['project-list']}`}>
-            <ProjectItem projectTitle='Github Finder' img='https://i.postimg.cc/CxWkKYVY/github-finder.jpg' 
-                source='https://github.com/adamyi515/react-github-finder' demo='https://projekt2501-github-finder.netlify.app/' 
-                info='React application to find github users using Github API' />
-                <ProjectItem projectTitle='Github Finder' img='https://i.postimg.cc/CxWkKYVY/github-finder.jpg' 
-                source='https://github.com/adamyi515/react-github-finder' demo='https://projekt2501-github-finder.netlify.app/' 
-                info='React application to find github users using Github API' />
-                <ProjectItem projectTitle='Github Finder' img='https://i.postimg.cc/CxWkKYVY/github-finder.jpg' 
-                source='https://github.com/adamyi515/react-github-finder' demo='https://projekt2501-github-finder.netlify.app/' 
-                info='React application to find github users using Github API' />
-                <ProjectItem projectTitle='Github Finder' img='https://i.postimg.cc/CxWkKYVY/github-finder.jpg' 
-                source='https://github.com/adamyi515/react-github-finder' demo='https://projekt2501-github-finder.netlify.app/' 
-                info='React application to find github users using Github API' />
+
+            {
+                projectItems.map(projectItem => <ProjectItem {...projectItem} />)
+            }
+
         </div>
     )
 }

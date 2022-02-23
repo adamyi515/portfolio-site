@@ -14,7 +14,7 @@ const ProjectItem = ({ projectTitle, img, source, demo, info }) => {
             </div>
             <div className={`${styles['project-item__body']}`}>
                 <p>
-                    { info.length > 70 ? info.substring(0, 70) + '...' : info }
+                    { info.length > 100 ? info.substring(0, 100) + '...' : info }
                 </p>
             </div>
         </div>
