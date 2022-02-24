@@ -13,3 +13,7 @@ React, Redux and Context API onto Netlify. This website is also deployed to Netl
 4. Database? (Looking to see if I can utilize MongoDB)
 5. Blog functionality (Need database to do this)
 6. CSS modules
+
+Check out my website at:
+
+https://projekt2501-portfolio.netlify.app/

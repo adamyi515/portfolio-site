@@ -3,7 +3,7 @@ export const resumeSectionData =  [
         subtitle: 'Experience',
         position: 'JavaScript/ServiceNow Developer',
         company: 'Accenture Federal Services',
-        dateRange: 'Jan 2022 - Dec 2022',
+        dateRange: 'Sept 2017 - Jan 2022',
         list: [
             `Implemented ITSM, HR and CSM suites for various agencies
             within the U.S. Government.`,
