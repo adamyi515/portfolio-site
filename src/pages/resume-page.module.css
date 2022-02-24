@@ -4,11 +4,17 @@
 
 .resume-page__header {
   color: #bcc6c8;
+  text-align: center;
 }
 
 .resume-page__header h3 {
   letter-spacing: 1px;
 }
+
+.resume-page__header ul {
+  list-style: none;
+}
+
 .resume-page__header li {
   padding: 5px;
 }

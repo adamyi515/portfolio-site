@@ -1,5 +1,6 @@
 export const projectItems = [
     {
+        id:1,
         projectTitle:'Github Finder',
         img:'https://i.postimg.cc/CxWkKYVY/github-finder.jpg',
         source:'https://github.com/adamyi515/react-github-finder',
@@ -7,6 +8,7 @@ export const projectItems = [
         info:'React application to find github users using Github API, React hooks, Context API. '
     },
     {
+        id:2,
         projectTitle:'Cocktail Drinks',
         img:'https://i.postimg.cc/QNWWCCqz/cocktail-app.jpg',
         source:'https://github.com/adamyi515/react-cocktail',
@@ -14,6 +16,7 @@ export const projectItems = [
         info:'React application using thecocktaildb API and Redux to grab drinks from endpoint.'
     },
     {
+        id:3,
         projectTitle:'Simple Expense App',
         img:'https://i.postimg.cc/15q0kMTf/expense-app.jpg',
         source:'https://github.com/adamyi515/react-exepense-app',
@@ -21,6 +24,7 @@ export const projectItems = [
         info:'A simple expense App using the basic components of React and React hooks.'
     },
     {
+        id:4,
         projectTitle:'Simple Todo List App',
         img:'https://i.postimg.cc/FKMGdq25/todo-list-app.jpg',
         source:'https://github.com/adamyi515/react-todo-list',
@@ -28,6 +32,7 @@ export const projectItems = [
         info:'A simple Todo List app. Add, edit and delete todo items. Used React hooks.'
     },
     {
+        id:5,
         projectTitle:'Advanced CSS Website - Trillo',
         img:'https://i.postimg.cc/pTvGc4kQ/trillo-css-app.jpg',
         source:'https://github.com/adamyi515/Trillo',
@@ -35,6 +40,7 @@ export const projectItems = [
         info:'Created a fake hotel website using advanced CSS feature such as SASS and Animations.'
     },
     {
+        id:6,
         projectTitle:'Cart Page',
         img:'https://i.postimg.cc/c1b7rPYD/mini-cart-app.jpg',
         source:'https://github.com/adamyi515/react-cart',

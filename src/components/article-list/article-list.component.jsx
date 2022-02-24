@@ -5,7 +5,7 @@ import styles from './article-list.module.css';
 import ArticleItem from '../article-item/article-item.component';
 
 // Local Data (When MongoDB is implemented, this data file will not exist)
-import articleListData from '../../data/article.list';
+import articleListData from '../../data/article.list.data';
 
 
 const ArticleList = ({ titleList, styleObj: { titleColor, textColor, hoverColor } }) => {
