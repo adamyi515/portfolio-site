@@ -28,6 +28,11 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li>
+                        <Link className={`${styles['navbar__link']}`} to='/resume'>
+                            <i className="fa-solid fa-file-lines"></i> Resume
+                        </Link>
+                    </li>
+                    <li>
                         <Link className={`${styles['navbar__link']}`} to='/about'>
                             <i className="fa-solid fa-book"></i> About me
                         </Link>

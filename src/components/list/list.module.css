@@ -1,0 +1,18 @@
+.list__header h2 {
+  color: #fde74c;
+}
+
+.list__header h4 {
+  color: #bcc6c8;
+  border-bottom: 1px solid #fff;
+  display: inline;
+}
+
+.list__body {
+  color: #bcc6c8;
+}
+
+.list__body li {
+  padding: 5px;
+  word-spacing: 2px;
+}

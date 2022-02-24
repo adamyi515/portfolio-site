@@ -1,22 +1,24 @@
-.about-page {
+.resume-page {
   margin-top: 10%;
 }
 
-.about-page__header {
-  text-align: center;
+.resume-page__header {
   color: #bcc6c8;
 }
 
-.about-page__header h3 {
-  letter-spacing: 2px;
+.resume-page__header h3 {
+  letter-spacing: 1px;
+}
+.resume-page__header li {
+  padding: 5px;
 }
 
-.about-page__title {
+.resume-page__title {
   color: #fff;
   letter-spacing: 6px;
 }
 
-.about-page__body {
+.resume-page__body {
   color: #bcc6c8;
   line-height: 1.4rem;
   word-spacing: 3px;

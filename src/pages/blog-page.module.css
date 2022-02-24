@@ -1,0 +1,17 @@
+.blog-page {
+  margin-top: 10%;
+}
+
+.blog-page__header {
+  text-align: center;
+  color: #bcc6c8;
+}
+
+.blog-page__title {
+  color: #fff;
+  letter-spacing: 6px;
+}
+
+.under-line {
+  border-bottom: 1px solid #fde74c;
+}
