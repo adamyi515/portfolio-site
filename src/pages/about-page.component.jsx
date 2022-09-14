@@ -22,26 +22,27 @@ const AboutPage = () => {
 
             <div className={`${styles['about-page__body']}`}>
                 <p>
-                    Sup, the name's Adam. I'm a Web Application Developer that worked in San Antonio and recently moved
+                    Hey there, the name is Adam. I'm a Web Application Developer that worked in San Antonio and recently moved
                     back to my home town here in Houston TX. I used to work as a ServiceNow Developer/Consultant for the U.S. Government 
                     as a contractor at my previous company: <a href='https://www.accenture.com/us-en/industries/afs-index' 
                         className={`${styles['link']}`}>Accenture Federal Services</a>. After
-                    working there for more than 4 years, I decided to leave and pursue my career in Frontend/Mobile Development. 
+                    working there for more than 4 years, I decided to leave and pursue my career in Frontend/Fullstack Development. 
                 </p>
                 <p>
                     Why you ask? Long story short: <span className={`${styles['text-hightlight']}`}>Life is short! </span> 
                 </p>
                 <p>
-                    After contemplating whether I wanted to stay here and keep specializing in ServiceNow (no offense,
-                    ServiceNow is an awesome cloud-based enterprise platform and I was blessed to be given an opportunity to learn it) I asked the long
-                    awaited question to myself: "Are you satisfied where you are in life?" 
+                    After contemplating whether I wanted to stay here and keep specializing in ServiceNow I asked the long
+                    awaited question to myself: "Are I satisfied where I'm at in my life?" 
                 </p>
                 <p>
-                    The short answer was <i>Maybe</i> but deep down inside I knew I wanted to do something different. So I looked into the mirror 
-                    and had a long conversation with myself and eventually an answer brewed within the depths of my heart. When I worked on my 2nd
-                    project at AFS, I had a glimps of what it was like to develop the frontend portion of our application. Right there and then
-                    it piqued my curiosity but it never manifested into anything else other than "something to add to my list of skillsets as a Software
-                    Developer."" And then time went by, and as stated above, I talked to myself. 
+                    The short answer was <i>Maybe.</i> But deep down inside I knew I wanted to do something different. So I had a long conversation with myself 
+                    and eventually an answer brewed within the depths of my heart. When I was working on a project for the Department of Interior,
+                    I had a chance to do some frontend development. Right there and then it piqued my curiosity and I wanted to learn more. 
+                    So I taught myself. HTML, CSS and JavaScript was something that I've already known for quite some time but I needed to learn a framework
+                    or library to step up my game and so I chose React. But unfortunately the opportunity never arrived and I was stuck using a platform that
+                    would not get me where I wanted to be. And so I decided it was time for me to make a change. It was time to pursue my career as a fullstack
+                    web developer.
                 </p>
                 <p>
                     So stay awhile and listen... or just check out some random <Link className={`${styles['link']}`} to='/blog'><i>Talks</i></Link> (currently
@@ -50,11 +51,11 @@ const AboutPage = () => {
             </div> {/** ./about-page__body */}
 
 
-            <List header={`What I'm doing now`} date={`February 23, 2022`} listOfItems={[
+        
+            <List header={`What I'm doing now`} date={`August 10, 2022`} listOfItems={[
               `Reading "Can't Hurt Me" by David Goggins`,
-              `Learning React and React Native --- Learning from zerotomastery.io, Great resource!. `,
               `Watching some Udemy Videos on Music Theory`,
-              `Following an Exercise Routine - 4 days a week, 3 sets of (pullups, squats, pushups, core, dips)`,
+              `Following an Exercise Routine (Basic Calisthenics) - 4 days a week`,
               `Trying to learn Unity Game Engine --- It's tough!`
             ]} />
 

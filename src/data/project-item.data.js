@@ -1,5 +1,21 @@
 export const projectItems = [
     {
+        id:7,
+        projectTitle:'Glozzom (Bootstrap 4)',
+        img:'https://i.postimg.cc/T3WqSS9W/glossom-bootstrap4.jpg',
+        source:'https://github.com/adamyi515',
+        demo:'https://projekt2501-glozzom-bootstrap.netlify.app',
+        info:'Created a fake company website using HTML, CSS, JavaScript, JQuery and Bootstrap'
+    },
+    {
+        id:5,
+        projectTitle:'Advanced CSS Website - Trillo',
+        img:'https://i.postimg.cc/pTvGc4kQ/trillo-css-app.jpg',
+        source:'https://github.com/adamyi515/Trillo',
+        demo:'https://projekt2501-trillo-hotel.netlify.app/',
+        info:'Created a fake hotel website using advanced CSS feature such as SASS and Animations.'
+    },
+    {
         id:1,
         projectTitle:'Github Finder',
         img:'https://i.postimg.cc/CxWkKYVY/github-finder.jpg',
@@ -31,14 +47,7 @@ export const projectItems = [
         demo:'https://projekt2501-todo-list.netlify.app/',
         info:'A simple Todo List app. Add, edit and delete todo items. Used React hooks.'
     },
-    {
-        id:5,
-        projectTitle:'Advanced CSS Website - Trillo',
-        img:'https://i.postimg.cc/pTvGc4kQ/trillo-css-app.jpg',
-        source:'https://github.com/adamyi515/Trillo',
-        demo:'https://projekt2501-trillo-hotel.netlify.app/',
-        info:'Created a fake hotel website using advanced CSS feature such as SASS and Animations.'
-    },
+  
     {
         id:6,
         projectTitle:'Cart Page',
@@ -47,4 +56,5 @@ export const projectItems = [
         demo:'https://projekt2501-cart.netlify.app/',
         info:'Created a Cart Page using React and Redux. State is managed at a single source rather than in Components.'
     },
+    
 ];
