@@ -4,38 +4,70 @@ import styles from './resume.module.css';
 // Component
 import ResumeSection from '../resume-section/resume-section.component';
 
-const Resume = (props) => {
+const Resume = ({ resumeSectionData }) => {
     const {
-        username, location, email, githubLink, githubName, linkedinLink, linkedinName, resumeSectionData
-    } = props; 
+        jobs, skillSet, educations
+    } = resumeSectionData;
+    const { list } = skillSet;
+
     return(
         <div className={`${styles['resume']}`}>
+            {/* Job/experience section */}
+            <h2 className={`${styles['resume-title']}`}>Experience</h2>
+            <div className={`${styles['border-line']}`}></div>
+            {
+                jobs.map((job) => {
+                    const {
+                        position, company, jobDateRange,
+                        responsibilities, 
+                    } = job;
+                    return(
+                        <>
+                             <div className={`${styles['resume__container']}`}>
+                                <h3 className={`${styles['resume-position']}`}>{ position }</h3>
+                                <p > { jobDateRange }</p>
+                            </div>
+                            <p className={`${styles['resume-text']}`}>{ company }</p>
+                            <ul>
+                                {responsibilities.map((item) => (
+                                    <li>{ item }</li>
+                                ))}
+                            </ul>
+                        </>
+                    )
+                })
+            }
+            {/* Skills section */}
+            <h2 className={`${styles['resume-title']}`}>Skills</h2>
+            <div className={`${styles['border-line']}`}></div>
+            {
+                list.map((skill) => (
+                    <ul>
+                       <li>{ skill }</li>
+                    </ul>
+                ))
+            }
 
-            <div className={`${styles['resume__header']}`}>
-                <h1>{ username }</h1>
-                <h4>Web Application Developer in { location }</h4>
-                <ul>
-                    <li> <span>Email</span> - { email } </li>
-                    <li> <span>Github</span> - <a target='_blank' className={`${styles['link']}`} href={githubLink}>{githubName}</a> </li>
-                    <li> <span>Linkedin</span> - <a target='_blank' className={`${styles['link']}`} href={linkedinLink}>{linkedinName}</a> </li>
-                </ul>
-            </div>
 
-            <div className={`${styles['resume__body']}`}>
-                {resumeSectionData.map(sectionData => <ResumeSection  {...sectionData} /> )}
-            </div>
-
+            {/* Education section */}
+            <h2 className={`${styles['resume-title']}`}>Education</h2>
+            <div className={`${styles['border-line']}`}></div>
+            {
+                educations.map((education) => {
+                    const { degree, school, schooDateRange } = education;
+                    return(
+                        <>
+                            <div className={`${styles['resume__container']}`}>
+                                <h3 className={`${styles['resume-position']}`}>{ degree }</h3>
+                                <p> { schooDateRange }</p>
+                            </div>
+                            <p className={`${styles['resume-text']}`}>{ school }</p>
+                        </>
+                    )
+                })
+            }
         </div>
     )
-}
-
-Resume.defaultProps = {
-    username: 'Default Name',
-    location: 'No location',
-    email: 'John.doe@mail.com',
-    githubName: 'No githubname',
-    githubLink: 'No githubLink',
-    subtitle: 'Experience'
 }
 
 export default Resume;

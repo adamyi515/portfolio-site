@@ -1,11 +1,18 @@
 import React from 'react';
 import styles from './resume-section.module.css';
 
-const ResumeSection = ({ company, dateRange, position, subtitle, list }) => {
+const ResumeSection = (props) => {
+    const {
+        jobs, skillSet, educations
+    } = props;
+
+
     return(
         <div className={`${styles['resume-section']}`}>
 
-            {subtitle ? <>
+            
+
+            {/* {subtitle ? <>
                 <h2 className={`${styles['resume-section__subtitle']}`}>{ subtitle }</h2>
                 <div className={`${styles['border-line']}`}></div>
             </> : null}
@@ -24,7 +31,7 @@ const ResumeSection = ({ company, dateRange, position, subtitle, list }) => {
                     list.map(item => <li>{ item }</li>)
                     }
                 </ul>
-            </>: null}
+            </>: null} */}
             
         </div>
     )

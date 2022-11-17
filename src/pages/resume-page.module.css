@@ -4,7 +4,7 @@
 
 .resume-page__header {
   color: #bcc6c8;
-  text-align: center;
+  
 }
 
 .resume-page__header h3 {
@@ -22,6 +22,12 @@
 .resume-page__title {
   color: #fff;
   letter-spacing: 6px;
+  text-align: center;
+}
+
+.resume-page__list {
+  text-decoration: none;
+  padding: 0;
 }
 
 .resume-page__body {

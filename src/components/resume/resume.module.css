@@ -1,18 +1,25 @@
-.resume__header {
-  margin-bottom: 50px;
-  color: #fff;
+.resume-title {
+  color: #fdb54a;
 }
 
-.resume__header li {
-  padding: 5px;
+.resume__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fde74c;
+  margin-bottom: -30px;
 }
 
-.link {
-  text-decoration: none;
-  color: #fff;
-  border-bottom: 2px solid #fde74c;
+.resume-text {
+  color:#bcc6c8;
 }
 
-.link:hover {
-  background-color: #3891a6;
+.resume li {
+  padding: 10px;
+  color:#bcc6c8;
+}
+
+
+.border-line {
+  border-bottom: 1px solid #fff;
 }
