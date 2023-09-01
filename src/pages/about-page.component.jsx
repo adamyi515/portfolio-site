@@ -29,7 +29,7 @@ const AboutPage = () => {
                     working there for more than 4 years, I decided to leave to pursue and expand my knowledge in other technical fields in software development.
                 </p>
                 <p>
-                    If ya want to learn more about my background and experience, take a quick look at my resume at the top of the page!
+                    If ysa want to learn more about my background and experience, take a quick look at my resume at the top of the page!
                 </p>
             </div> {/** ./about-page__body */}
 
